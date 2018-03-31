@@ -1,81 +1,104 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-
-  font-size: 16px;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #333;
+  font-family: 'Copse', serif;
+  font-size: 10px;
 }
-
-nav {
-  background-color: #000000;
-  float: left;
-  position: fixed;
-  width: 100%;
-}
-
-.logo {
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: right;
-}
-
-ul {
-  list-style-type: none;
-  float: right;
-}
-
-li {
-  float: right;
-  padding: 30px;
-}
-
-article {
-  padding-top: 100px;
+div {
+    background-color: ##D3D3D3;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 420px;
 }
 
-h1 {
-  font-size: 20px;
-  font-weight: 600;
+nav {
+  background-color: #0752B8;
+  height: 90px;
+  position: fixed;
+  margin-top: -10px;
+  width: 420px;
 }
 
-h2 {
-  font-size: 18px;
-  font-weight: 400;
-  font-style: italic;
+.main-header{
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right:  30px;
 }
 
+.route-list {
+  background-color: #DCDCDC;
+  padding-top: 85px
+}
+
+.route {
+  background-color: #DCDCDC;
+  float: left;
+  padding: 3%;
+  width: 420px;
+  height: 80px;
+  border-bottom: 1px solid black;
+}
+
+.content {
+  float:left;
+  width: 90%;
+}
+
+.arrow {
+  float: right;
+  padding: 5%;
+  width: 10%;
+}
+
+.angle-down {
+  float: left;
+  position: static;
+  padding: 6%;
+  width: 100%;
+}
+.bus-name {
+  display: inline-block;
+  width: 30%;
+}
+.bus-route {
+  display: inline-block;
+  width: 70%;
+}
+
+h1{
+  padding-top: 3%;
+  float:right;
+  font-family: 'Copse', serif;
+  font-weight: 550;
+  font-size: 2em;
+  line-height: 1.75em;
+  color: #FFFFFF;
+}
+
+h2{
+  font-family: 'Copse', serif;
+  font-weight: 550;
+  font-size: 1.75em;
+  line-height: 1.75em;
+  color: #0752B8;
+
+}
 h3 {
+  font-weight: 300;
+  font-size: 1.5em;
+}
+bus-line-header {
   font-size: 18px;
-  font-weight: 400;
-  font-style: italic;
+  color: #828282;
+  float: center;
 }
-
-p {
-  line-height: 1.5;
-
-}
-a:link { text-decoration: none; color:#0070BB; } /* unvisited */
-a:visited { text-decoration: none; color:#0070BA; } /* visited */
-a:hover { text-decoration: none; color:#FFFFFF; } /* mouse over */
-a:active { text-decoration: none; color:#0070BD; } /* selected */
+bus-number {
+  font-size: 36px;
+  color: #FC610A;
+  float: center;
 }
