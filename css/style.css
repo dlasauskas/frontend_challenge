@@ -31,19 +31,39 @@ nav {
   padding-left: 30px;
   padding-right:  30px;
 }
+.direction-orange {
+  margin: 5px;
+  padding: 5px;
+  width: 365px;
+  height: 30px;
+  border-bottom: 2px #FC610A;
+  border-style: solid;
+  border-color: #FC610A
+}
+
+.direction-blue {
+  margin: 5px;
+  padding: 5px;
+  width: 365px;
+  height: 30px;
+  border-bottom: 2px #FC610A;
+  border-style: solid;
+  border-color: #2D9CDB
+}
 
 .route-list {
   background-color: #FFFFFF;
-  padding-top: 85px
+  padding-top: 80px
 }
 
 .route {
   background-color: #DCDCDC;
   float: center;
+  margin: 5px;
   padding: 3%;
   width: 365px;
   height: 80px;
-  border-bottom: 1px solid black;
+  border-radius: 10px;
 }
 
 .angle-down {
@@ -63,7 +83,7 @@ nav {
 .bus-route {
   display: inline-block;
   width: auto;
-  border-left: 1px solid #0752B8;
+  border-left: 1px solid #828282;
   padding-left: 18px;
 }
 
@@ -92,13 +112,27 @@ h3 {
 }
 
 bus-line-header {
-  font-size: 18px;
+  font-size: 100%;
   color: #828282;
   text-align: center;
 }
 
 bus-number {
-  font-size: 36px;
+  font-size: 190%;
   color: #FC610A;
   text-align: center;
+}
+
+direction-orange {
+  font-size: 115%;
+  color: #FC610A;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+direction-blue {
+  font-size: 115%;
+  color: #2D9CDB;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
