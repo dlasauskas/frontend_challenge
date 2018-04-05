@@ -13,6 +13,7 @@ div {
     background-color: ##FFFFFF;
 }
 .container {
+  background-color: #FFFFFF;
   margin: 0 auto;
   width: 375px;
   height: 667px;
@@ -28,8 +29,13 @@ div {
 nav {
   background-color: #0752B8;
   height: 90px;
-  position: fixed;
   margin-top: -10px;
+  width: 375px;
+}
+
+status {
+  background-color: #FFFFFF;
+  height: 50px;
   width: 375px;
 }
 
@@ -48,25 +54,41 @@ h1{
 .menu-panel {
   background-color: #DCDCDC;
   float: center;
-  margin: 5px;
+  margin: 10px 5px;
   width: 365px;
   height: 40px;
   border-radius: 10px;
+}
+.menu-panel-line {
+    display: block;
+    border-bottom: 3px solid blue;
+    content: "";
+    width: 375px;
+    border-color: #0752B8;
+    margin: 0px;
 }
 
 .pick-up {
   display: inline-block;
   width: 25%;
-  padding-left: 10px;
+  padding-left: 5px;
   text-align: center;
 }
 .pick-up-location {
   display: inline-block;
   width: auto;
-  padding-left: 18px;
+
 }
-.arrow {
-  float: right;
+i {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
 }
 
 
@@ -108,7 +130,9 @@ direction-blue {
 /* individual bus information section*/
 .route-list {
   background-color: #FFFFFF;
-  padding-top: 80px
+  padding-top: 20px;
+  height: 542px;
+  overflow: scroll;
 }
 
 .route {
@@ -166,17 +190,14 @@ bus-number {
 footer {
   background-color: #000000;
   height: 90px;
-  position: fixed;
   margin-top: -10px;
   width: 375px;
 }
 
 .icons {
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 25px; height 25px;
-  background: url('images/Route.png') no-repeat left top;
-}
-.icons-hover {
-  background-position: -25px 0px;
+  display: inline-block;
+  float: center;
+  margin-top:10px ;
+  width: 75px;
+  height: 25px;
 }

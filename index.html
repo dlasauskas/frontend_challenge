@@ -5,33 +5,35 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="css/reset.css"> <!--reset-->
     <link rel="stylesheet" type="text/css" href="css/style.css"> <!--stylesheet for this site-->
-    <<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script> <!--icons-->
     <link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet"> <!--fonts-->
   </head>
   <body>
     <section class="container">
+      <status>
+      </status>
       <nav>
-        <div class="main-header">
+          <div class="main-header">
             <h1>Route Search</h1>
             <img src="/images/BusyBusLogo.png" alt:"Busy Bus">
         </div>
       </nav>
-      <section class="route-list">
-        <div class="menu-panel">
-          <div class="pick-up">
-            <span>
-              <ul pickup>
-                <li><bus-line-header>Pick Up</bus-line-header></li>
-              </ul>
-            </div>
-            <div class="pick-up-location">
-              <ul pick-up-location>
-                <li><h2>Washington & State</h2></li>
-                <i .arrow="fas fa-angle-down"></i>
-              </ul>
-            <span>
-            </div>
+      <div class="menu-panel">
+        <div class="pick-up">
+          <span>
+            <ul pickup>
+              <li><bus-line-header>Pick Up</bus-line-header></li>
+            </ul>
           </div>
+          <div class="pick-up-location">
+            <ul pick-up-location>
+              <li><h2>Washington & State</h2></li>
+              <li><i class= "arrow down"></i></li>
+            </ul>
+          <span>
+          </div></div>
+          <div class="menu-panel-line">
+          </div>
+        </div>  <section class="route-list">
         <div>
         <div class= "direction-orange">
           <direction-orange> eastbound </direction-orange>
@@ -192,16 +194,19 @@
                               <span>
                           </div>
                           </div>
-                          <footer>
-                            <div class="main-header">
-                              <icons> <img src="/images/BusSearch.png" alt:"Bus Search">
-                              </icons>
-                              <icons>  <img src="/images/Route.png" alt:"Route">
-                                <icons-hover> <img src="images/RouteColor.png" alt:"Route"><icons-hover>
-                                <img src="/images/Favorite.png" alt:"Favorite">
-                                <img src="/images/Home.png" alt:"Home">
-                            </div>
-                          </nav>
-      </section>
+                          </section>
+      <footer>
+        <div class="main-header">
+          <div class= "icons"> <img src="/images/BusSearch.png" alt:"Bus Search">
+          </div>
+          <div class= "icons">  <img src="/images/RouteColor.png" alt:"Route">
+          </div>
+          <div class= "icons">  <img src="/images/Favorite.png" alt:"Favorite">
+          </div>
+          <div class= "icons"> <img src="/images/Home.png" alt:"Home">
+        </div>
+      </div>
+      </footer>
+            </section>
   </body>
 </html>
