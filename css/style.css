@@ -25,6 +25,7 @@ div {
   padding-right:  30px;
 }
 
+  
 /* Top navigation section*/
 nav {
   background-color: #0752B8;
@@ -141,7 +142,7 @@ i {
   height: 80px;
   border-radius: 10px;
 }
- 
+
 .bus-name {
   display: inline-block;
   width: 25%;
