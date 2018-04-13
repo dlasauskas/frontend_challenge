@@ -7,14 +7,11 @@ body {
   background-color: #333;
   font-family: 'Copse', serif;
   font-size: 18px;
-}
 
-div {
-    background-color: ##FFFFFF;
 }
 .container {
   background-color: #FFFFFF;
-  margin: 0 auto;
+  margin: auto;
   width: 375px;
   height: 667px;
 }
@@ -22,10 +19,9 @@ div {
 .main-header{
   padding-top: 20px;
   padding-left: 30px;
-  padding-right:  30px;
+  padding-right: 30px;
 }
 
-  
 /* Top navigation section*/
 nav {
   background-color: #0752B8;
@@ -43,29 +39,26 @@ h1{
   padding-top: 3%;
   float:right;
   font-family: 'Copse', serif;
-  font-weight: 550;
+  font-weight: bold;
   font-size: 124%;
   line-height: 1.75em;
   color: #FFFFFF;
 }
 
-
 /* Pick up location section*/
 .menu-panel {
   background-color: #DCDCDC;
-  float: center;
   margin: 10px 5px;
   width: 365px;
   height: 40px;
   border-radius: 10px;
 }
+
 .menu-panel-line {
     display: block;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid #0752B8;
     content: "";
     width: 375px;
-    border-color: #0752B8;
-    margin: 0px;
 }
 
 .pick-up {
@@ -87,22 +80,18 @@ i {
     padding: 3px;
     margin-top: 13px;
 }
+
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-
 }
 
-
 /* bus direction information section*/
-.direction-orange {
+.direction-orange, .direction-blue {
   margin: 5px;
   padding: 5px;
   width: 365px;
-  height: 30px;
-  border-bottom: 2px #FC610A;
-  border-style: solid;
-  border-color: #FC610A;
+  border-bottom: 2px solid #FC610A;
   font-size: 115%;
   color: #FC610A;
   text-transform: uppercase;
@@ -110,56 +99,42 @@ i {
 }
 
 .direction-blue {
-  margin: 5px;
-  padding: 5px;
-  width: 365px;
-  height: 30px;
-  border-bottom: 2px #FC610A;
-  border-style: solid;
   border-color: #2D9CDB;
-  font-size: 115%;
   color: #2D9CDB;
-  text-transform: uppercase;
-  letter-spacing: 2px;
 }
-
-
 
 /* individual bus information section*/
 .route-list {
   background-color: #FFFFFF;
-  padding-top: 20px;
   height: 545px;
   overflow: scroll;
 }
 
 .route {
   background-color: #DCDCDC;
-  float: center;
   margin: 5px;
   padding: 3%;
   width: 365px;
-  height: 80px;
+  height: 110px;
   border-radius: 10px;
 }
 
 .bus-name {
   display: inline-block;
   width: 25%;
-  padding-right: 5px;
+  padding-right: 10px;
   text-align: center;
 }
 
 .bus-route {
   display: inline-block;
-  width: auto;
   border-left: 1px solid #0752B8;
   padding-left: 15px;
 }
 
 h2{
   font-family: 'Copse', serif;
-  font-weight: 550;
+  font-weight: bold;
   font-size: 122%;
   line-height: 1.75em;
   color: #0752B8;
@@ -167,29 +142,28 @@ h2{
 }
 
 h3 {
-  font-weight: 300;
   font-size: 100%;
-  color: #828282
+  color: #828282;
+  line-height: 1.75em;
 }
 
-bus-line-header {
-  font-size: 100%;
+h4 {
+  font-size: 115%;
   color: #828282;
   text-align: center;
 }
-
-bus-number {
-  font-size: 190%;
+h5 {
+  font-size: 225%;
   color: #FC610A;
-  text-align: center;
 }
-
+h6{
+  font-size: 100%;
+}
 
 /*footer*/
 footer {
   background-color: #000000;
   height: 90px;
-  margin-top: -10px;
   padding-top: 20px;
   width: 375px;
 }
